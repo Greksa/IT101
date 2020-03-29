@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kontakt</title>
+<link rel="stylesheet" href="styles.css">
+<script src="mojJS.js"></script>
+</head>
+
+<body>
+<div class="container">
+  <div class ="wrapper">
+    <header>
+      <h1>- m s c -</h1>
+      <h2>- Mad Skill Company -</h2>
+    </header>
+    <nav>
+      <ul class="mainMenu">
+        <li><a class="active" href="index.html">Pocetna</a></li>
+        <li><a href="Kompanija.html">O Kompaniji </a></li>
+        <li><a href="Proizvodi.html">Proizvodi</a></li>
+        <li><a href="Mi.html">O nama</a></li>
+        <li><a href="Karijera.html">Karijera</a></li>
+        <li><a href="Kontakt.html">Kontakt</a></li>
+        <li><a href="Blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class ="wrapper">
+    <div class="kontent">
+      <h3 id="informacije">imail-adress: mihal.greksa@gmail.com<br>
+        kontakt-telefon: 555-444-222-111<br>
+        radno vreme: 9h do 16h pon-pet</h3>
+      <form id="kontaktForma" name="mojaForma">
+        <p><strong>Unesite vase</strong></p>
+        <input type="text" onkeypress="return console.log(event.keyCode || event.which), (event.keyCode != 32 && event.which != 32)">
+        <p><b>Unesite vase prezime:</b></p>
+        <input type="text" onkeypress="return console.log(event.keyCode || event.which), (event.keyCode != 32 && event.which != 32)">
+        <p><b>Unesite naslov poruke:</b></p>
+        <input type="text">
+        <label class="vrstaPoruke" for="vrstaPoruke"><b>Izaberi<br>
+          tip poruke:</b></label>
+        <select class="vrstaPoruke">
+          <option value="volvo">Pitanje</option>
+          <option value="saab">Primedba</option>
+          <option value="opel">Pohvala</option>
+          <option value="audi">Predlog</option>
+        </select>
+        <textarea minlength="5" maxlength="200" ></textarea>
+        <p><b>Unesite vas kontakt telefon:</b></p>
+        <input type="number">
+        <input type="file" class="file" name="file" accept="file/*">
+        <input type="submit" class="file">
+      </form>
+      <div id="mapa">
+        <div id="embedmap-display">
+          <iframe id="frame" src="https://www.google.com/maps/embed/v1/place?q=miljakovacko+brdo+3&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+        </div>
+        <a class="embeddedmap-code" href="https://www.embed-map.com" id="get-mapdata">https://www.embed-map.com</a>
+        <style>
+#embedmap-display .text-marker{}.map-generator{max-width: 100%; max-height: 100%; background: none;>
+</style>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <h3 id="footerText">Univerzitet Metropolitan - Projekat</h3>
+  </footer>
+</div>
+</body>
+</html>

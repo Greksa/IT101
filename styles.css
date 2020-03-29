@@ -1,0 +1,536 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	box-sizing: border-box;
+}
+body {
+	margin: 0px 0px 0px 0px;
+	box-sizing: border-box;
+	background-image: url("Slike/243241-Genuine-black-leather-background.jpg");
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	padding: 0 3rem;
+}
+.wrapper {
+	width: 1600px;
+	margin: 0 auto;
+	padding: 32px;
+	background: rgba(240, 255, 255, 0.6);
+	margin-bottom: 0px;
+}
+header {
+	box-sizing: border-box;
+	background-image: url("Slike/SawEuJI.jpg");
+	padding: 32px;
+	height: 250px;
+	width: 1600px;
+	margin-bottom: 0px;
+	opacity: 0.9;
+}
+h1 {
+	text-transform: uppercase;
+	text-align: left;
+	color: azure;
+	line-height: 50px;
+	padding-left: 200px;
+}
+h2 {
+	padding-left: 150px;
+	color: azure;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 50px;
+}
+.mainMenu {
+	padding: 5px 0px 5px 0px;
+	text-align: center;
+	line-height: 32px;
+	background-color: #505050;
+}
+h3 {
+	text-transform: uppercase;
+	line-height: 50px;
+	text-align: center;
+	margin: 50px 10px 10px 10px;
+}
+
+h4 {
+	text-align: center;
+	color: white;
+}
+#naslov {
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+.zaIstoriju {
+	line-height: 20px;
+	text-align: left;
+	margin: 30px 680px 10px 20px;
+	color: white;
+}
+ul.mainMenu {
+	margin-top: 15px;
+}
+.mainMenu li {
+	display: inline;
+	padding: 10px 0px 10px 0px;
+	font-size: 20px;
+}
+.mainMenu a {
+	text-decoration: none;
+	color: #fff;
+	padding: 8px;
+	font-variant: small-caps;
+}
+.mainMenu a:hover {
+	color: #B2B2B2;
+}
+.triDivaGore {
+	box-sizing: border-box;
+	padding: 4px;
+	height: 500px;
+	width: 0 auto;
+	margin-bottom: 0px;
+	background: rgba(46, 49, 49, 0.5);
+}
+.triDivaDole {
+	box-sizing: border-box;
+	padding: 4px;
+	height: 500px;
+	width: 0 auto;
+	margin-bottom: 0px;
+	background: rgba(46, 49, 49, 0.5);
+}
+.maliDivovi {
+	box-sizing: border-box;
+	height: 450px;
+	width: 505px;
+	background-color: azure;
+	float: left;
+	margin: 20px 0px 10px 20px;
+	border-radius: 25px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+.maliDivovi:hover {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	animation-name: example;
+	animation-duration: 0.25s;
+	border-left: 8px solid yellow;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+img.displayed {
+	box-sizing: border-box;
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+img.displayed:hover {
+	animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
+}
+
+img.displayed2 {
+	box-sizing: border-box;
+	width: 90px;
+	height: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	border-radius: 25px;
+	
+}
+@keyframes shake {
+	10%, 90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+	20%, 80% {
+		transform: translate3d(2px, 0, 0);
+	}
+	30%, 50%, 70% {
+		transform: translate3d(-4px, 0, 0);
+	}
+	40%, 60% {
+		transform: translate3d(4px, 0, 0);
+	}
+}
+.kontent {
+	box-sizing: border-box;
+	padding: 10px;
+	height: 1000px;
+	width: 0 auto;
+	margin-bottom: 0px;
+	background: rgba(46, 49, 49, 0.5);
+}
+#kontent2 {
+	box-sizing: border-box;
+	padding: 4px;
+	height: 400px;
+	width: 900px;
+	margin: 0 auto;
+	background: rgba(46, 49, 49, 0.5);
+	border: 1px solid white;
+	margin-top: 50px;
+	border-radius: 25px;
+	text-align: center;
+	
+}
+
+#office {
+	width: 600px;
+	height: 330px;
+	margin-left: 15px;
+	margin-right: 20px;
+	float: right;
+}
+#slikaZgrade {
+	width: 600px;
+	height: 330px;
+	margin-left: 15px;
+	margin-top: 30px;
+	margin-right: 20px;
+	float: right;
+}
+.imgHolder {
+	width: 300px;
+	height: 200px;
+	background-color: aliceblue;
+	padding: 3px 3px 3px 3px;
+	border-radius: 25px;
+	text-align: center;
+}
+#imgUp {
+	margin: 0 auto;
+}
+#imgUp2 {
+	float: right;
+	margin: 0px 20px 0px 20px;
+}
+#imgUp3 {
+	float: left;
+	margin: 0px 20px 0px 20px;
+}
+#imgDown1 {
+	float: left;
+	margin: 50px 30px 50px 30px;
+}
+#imgDown2 {
+	float: left;
+	margin: 50px 30px 50px 30px;
+}
+#imgDown3 {
+	float: right;
+	margin: 50px 30px 50px 30px;
+}
+#imgDown4 {
+	float: right;
+	margin: 50px 30px 50px 30px;
+}
+
+.zaposleni {
+	width: 170px;
+	height: 170px;
+	border: 1px solid white;
+	float: left;
+	margin: 50px 0px 5px 50px;
+	clear: left;
+	
+	
+}
+
+#zaposleni1 {
+	margin-top: 5px;
+}
+
+#klik {
+	width: 200px;
+	margin: 0px 2px 0px 40px;
+	color: white;
+	
+}
+
+
+#ukras {
+	width:15px;
+	height: 850px;
+	float:right;
+	margin: 50px 0px 30px 20px;
+	background-color: white;
+	
+}
+
+#ukras2 {
+	width:400px;
+	height: 15px;
+	float:right;
+	margin: 415px 0px 0px 0px;
+	background-color: white;
+	
+}
+
+#cv {
+	width: 830px;
+	height: 800px;
+	 outline-style: solid;
+	outline-color: white;
+	outline-width: 10px;
+	float: right;
+	margin:50px 50px 0px 0px;
+	text-align: center;
+	padding: 10px;
+	color: white;
+	font-size: 30px;
+   
+	
+	
+}
+
+.contain {
+	object-fit: cover;
+}
+
+#dugme-css {
+    background-image: url("Slike/photo-1438761681033-6461ffad8d80.jpg");
+    
+    height: 170px;  
+    width: 170px;
+	background-size: cover;
+}
+
+#dugme-css2 {
+    background-image: url("Slike/b18ba64e-3a31-42f2-aa45-e91b1927c03a-b18ba64e3a3142f2aa45e91b1927c03arendition_1_JimGrimesheadshotfinal.png");
+    
+    height: 170px;  
+    width: 170px;
+	background-size: cover;
+}
+
+#dugme-css3 {
+    background-image: url("Slike/13906539_G.webp");
+    
+    height: 170px;  
+    width: 170px;
+	background-size: cover;
+}
+
+#dugme-css4 {
+    background-image: url("Slike/52a5eabc69bedd1379312cf4.jpg");
+    
+    height: 170px;  
+    width: 170px;
+	background-size: cover;
+}
+
+
+.poslovi {
+	width: 400px;
+	height: 200px;
+	background-color: white;
+	border-radius: 25px;
+	float: left;
+	clear: left;
+	margin: 10px;
+	padding: 10px;
+	text-align: left;
+	
+}
+
+form {
+	float: right;
+	clear: right;
+	width: 600px;
+	height: 300px;
+	background-color: darkgray;
+	border: 1px solid white;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+form input {
+	float: right;
+	clear: right;
+	margin: 20px;
+	margin-right: 60px;
+	
+}
+
+form p {
+	float: left;
+	clear: left;
+	margin: 20px;
+	margin-left: 60px;
+	
+}
+
+form .file {
+	float: left;
+	clear: left;
+	margin: 20px;
+	margin-left: 60px;
+	
+}
+
+#karijeraSlika {
+	float: right;
+	clear: right;
+	margin: 10px 100px 0px 10px;
+	width: 700px;
+	height: 700px;
+	
+}
+
+#kontaktForma {
+	float: left;
+	clear: left;
+	margin: 40px 40px 30px 30px;
+	width: 570px;
+	height: 450px;
+	background-color: darkgray;
+	border: 1px solid white;
+	
+	
+}
+
+.vrstaPoruke {
+	float: right;
+	clear: right;
+	margin: 3px 3px 3px 3px;
+}
+
+textarea {
+	width: 400px;
+	height: 100px;
+	margin-left: 60px;
+}
+
+#kontaktForma input {
+	float: right;
+	clear: right;
+	margin: 20px;
+	margin-right: 60px;
+	
+}
+
+#kontaktForma p {
+	float: left;
+	clear: left;
+	margin: 20px;
+	margin-left: 60px;
+	
+}
+
+#kontaktForma .file {
+	float: left;
+	clear: left;
+	margin: 10px;
+	margin-left: 60px;
+	
+}
+
+#informacije {
+	float: right;
+	clear: right;
+	margin: 30px 200px 30px 100px;
+	color: white;
+}
+
+#mapa {
+	max-width:100%;
+	list-style:none; 
+	transition: none;
+	overflow:hidden;
+	width:500px;
+	height:400px; 
+	margin: 30px 180px 30px 100px;
+	float: right;
+	clear: right;
+   
+}
+
+#embedmap-display {
+	height:100%; 
+	width:100%;
+	max-width:100%;
+}
+
+#frame {
+	height:100%;
+	width:100%;
+	border:0;
+}
+
+#informacije {
+	float:right;
+	clear: right;
+}
+
+.teme {
+	box-sizing: border-box;
+	padding: 20px;
+	height: 1600px;
+	width: 0 auto;
+	margin-bottom: 0px;
+	background: rgba(46, 49, 49, 0.5);
+	border: 1px solid white;
+	text-align: left;
+	
+}
+
+.teme p {
+	color: white;
+	float: left;
+	clear: left;
+	width: 1000px;
+}
+
+.teme h2 {
+	margin-bottom: 50px;
+	float: left;
+	clear: left;
+	width: 900px;
+	
+}
+
+.slikeBlog {
+	height: 400px;
+	width: 500px;
+	float: right;
+	clear: right;
+	margin-top: 30px;
+}
+
+.footer {
+   
+   margin-top: 0px;
+	
+   bottom: 0;
+   width: 1662px;
+	height: 100px;
+   background-color: darkgray;
+   color: white;
+   text-align: center;
+	margin: 0 auto;
+}
+
+#footerText {
+	margin: 0px 5px 5px 5px;
+	border-top: 1px solid white;
+}
+
